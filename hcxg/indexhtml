@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Clone</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Ícones Font Awesome -->
+    <link rel="stylesheet" href="https://cloudflare.com">
+</head>
+<body>
+
+    <!-- NAV BAR (Menu Superior) -->
+    <header class="navbar">
+        <div class="logo">
+            <img src="https://wikimedia.org" alt="Netflix">
+        </div>
+        <nav class="navigation">
+            <a href="#" class="active">Início</a>
+            <a href="#">Séries</a>
+            <a href="#">Filmes</a>
+            <a href="#">Bombando</a>
+            <a href="#">Minha lista</a>
+        </nav>
+        <div class="nav-profile">
+            <i class="fas fa-search icon"></i>
+            <span class="icon">Infantil</span>
+            <i class="fas fa-bell icon"></i>
+            <img src="https://wikimedia.org" alt="Perfil" class="avatar">
+        </div>
+    </header>
+
+    <!-- HERO SECTION (Filme em Destaque) -->
+    <main class="hero">
+        <div class="hero-content">
+            <h1 class="movie-title">STRANGER THINGS</h1>
+            <p class="movie-description">
+                Quando um jovem garoto desaparece, uma cidade pequena descobre um mistério envolvendo experimentos secretos, forças sobrenaturais aterrorizantes e uma estranha garotinha.
+            </p>
+            <div class="hero-buttons">
+                <button class="btn btn-play"><i class="fas fa-play"></i> Assistir</button>
+                <button class="btn btn-info"><i class="fas fa-info-circle"></i> Mais informações</button>
+            </div>
+        </div>
+        <div class="hero-overlay"></div>
+    </main>
+
+    <!-- CARROSSEL DE FILMES -->
+    <section class="movies-section">
+        <h2 class="section-title">Populares na Netflix</h2>
+        <div class="movies-container">
+            <!-- Substitua as URLs abaixo pelas imagens dos seus filmes favoritos -->
+            <div class="movie-card">
+                <img src="https://unsplash.com" alt="Filme 1">
+            </div>
+            <div class="movie-card">
+                <img src="https://unsplash.com" alt="Filme 2">
+            </div>
+            <div class="movie-card">
+                <img src="https://unsplash.com" alt="Filme 3">
+            </div>
+            <div class="movie-card">
+                <img src="https://unsplash.com" alt="Filme 4">
+            </div>
+            <div class="movie-card">
+                <img src="https://unsplash.com" alt="Filme 5">
+            </div>
+            <div class="movie-card">
+                <img src="https://unsplash.com" alt="Filme 6">
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
